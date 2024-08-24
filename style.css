@@ -1,0 +1,99 @@
+*{
+    padding: 0  ;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body1{
+    background: #5e58d1;
+}
+.logo {
+    font-size: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35px;
+
+}
+ul {
+    list-style: none;
+    background: rgb(27, 27, 28);
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 25px 37px;
+    color: aliceblue;
+    text-decoration: none;  
+    text-align: center;           
+    font-size: 15px;
+    right: 15px;
+
+
+}
+ul li ul.dropdown li a {
+    display: block;
+    text-align: center;
+}
+ul li ul.dropdown {
+    width: 100%;
+
+    background: rgb(15, 15, 15);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: rgb(21, 159, 177);
+    display: block;
+}
+ul li:hover  ul.dropdown {
+    display: block;
+}
+.dropdown li a {
+    font-size: 15px;
+    color: rgb(246, 239, 239);
+    text-align: center;
+    position: relative;
+    width: 57%;
+
+}
+.dropdown li a:hover{
+    background: green;
+    width: 50%;
+    height: 15px;
+    border-radius: 15px
+}
+
+.cover1{
+    width: 18px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 500px;
+    text-align: center;
+    padding: 20px 40px 20px;
+}
+.cover1 img{
+    width: 398px;
+    height: 285px;
+    border: 20px;
+}
+.cover1 p{
+    color: rgb(249, 45, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: #eeeef2;
+    border-radius: 15px;
+}
+.cover1 p:hover{
+    color: #030214;
+    transition: .5s;
+}
+.box1{
+    box-shadow: 0 8px 11px rgba(4, 208, 205, 0.15);
+}
+
